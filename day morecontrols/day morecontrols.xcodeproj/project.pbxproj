@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD869E1204569C200EBAC32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD869E0204569C200EBAC32 /* AppDelegate.swift */; };
+		9BD869E6204569C200EBAC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD869E4204569C200EBAC32 /* Main.storyboard */; };
+		9BD869E8204569C200EBAC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD869E7204569C200EBAC32 /* Assets.xcassets */; };
+		9BD869EB204569C200EBAC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD869E9204569C200EBAC32 /* LaunchScreen.storyboard */; };
+		9BD869F6204569C200EBAC32 /* day_morecontrolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD869F5204569C200EBAC32 /* day_morecontrolsTests.swift */; };
+		9BD86A01204569C200EBAC32 /* day_morecontrolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD86A00204569C200EBAC32 /* day_morecontrolsUITests.swift */; };
+		9BD86A0F20456D2600EBAC32 /* petmd-cat-happy-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BD86A0E20456D2600EBAC32 /* petmd-cat-happy-13.jpg */; };
+		9BD86A1120456DA500EBAC32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD86A1020456DA500EBAC32 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD869F2204569C200EBAC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD869D5204569C200EBAC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD869DC204569C200EBAC32;
+			remoteInfo = "day morecontrols";
+		};
+		9BD869FD204569C200EBAC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD869D5204569C200EBAC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD869DC204569C200EBAC32;
+			remoteInfo = "day morecontrols";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BD869DD204569C200EBAC32 /* day morecontrols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day morecontrols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD869E0204569C200EBAC32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BD869E5204569C200EBAC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD869E7204569C200EBAC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD869EA204569C200EBAC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BD869EC204569C200EBAC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD869F1204569C200EBAC32 /* day morecontrolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day morecontrolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD869F5204569C200EBAC32 /* day_morecontrolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_morecontrolsTests.swift; sourceTree = "<group>"; };
+		9BD869F7204569C200EBAC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD869FC204569C200EBAC32 /* day morecontrolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day morecontrolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD86A00204569C200EBAC32 /* day_morecontrolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_morecontrolsUITests.swift; sourceTree = "<group>"; };
+		9BD86A02204569C200EBAC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD86A0E20456D2600EBAC32 /* petmd-cat-happy-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "petmd-cat-happy-13.jpg"; path = "../../../Desktop/petmd-cat-happy-13.jpg"; sourceTree = "<group>"; };
+		9BD86A1020456DA500EBAC32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD869DA204569C200EBAC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD869EE204569C200EBAC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD869F9204569C200EBAC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD869D4204569C200EBAC32 = {
+			isa = PBXGroup;
+			children = (
+				9BD869DF204569C200EBAC32 /* day morecontrols */,
+				9BD869F4204569C200EBAC32 /* day morecontrolsTests */,
+				9BD869FF204569C200EBAC32 /* day morecontrolsUITests */,
+				9BD869DE204569C200EBAC32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD869DE204569C200EBAC32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD869DD204569C200EBAC32 /* day morecontrols.app */,
+				9BD869F1204569C200EBAC32 /* day morecontrolsTests.xctest */,
+				9BD869FC204569C200EBAC32 /* day morecontrolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD869DF204569C200EBAC32 /* day morecontrols */ = {
+			isa = PBXGroup;
+			children = (
+				9BD869E0204569C200EBAC32 /* AppDelegate.swift */,
+				9BD869E4204569C200EBAC32 /* Main.storyboard */,
+				9BD869E7204569C200EBAC32 /* Assets.xcassets */,
+				9BD86A0E20456D2600EBAC32 /* petmd-cat-happy-13.jpg */,
+				9BD869E9204569C200EBAC32 /* LaunchScreen.storyboard */,
+				9BD869EC204569C200EBAC32 /* Info.plist */,
+				9BD86A1020456DA500EBAC32 /* ViewController.swift */,
+			);
+			path = "day morecontrols";
+			sourceTree = "<group>";
+		};
+		9BD869F4204569C200EBAC32 /* day morecontrolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD869F5204569C200EBAC32 /* day_morecontrolsTests.swift */,
+				9BD869F7204569C200EBAC32 /* Info.plist */,
+			);
+			path = "day morecontrolsTests";
+			sourceTree = "<group>";
+		};
+		9BD869FF204569C200EBAC32 /* day morecontrolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD86A00204569C200EBAC32 /* day_morecontrolsUITests.swift */,
+				9BD86A02204569C200EBAC32 /* Info.plist */,
+			);
+			path = "day morecontrolsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD869DC204569C200EBAC32 /* day morecontrols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD86A05204569C200EBAC32 /* Build configuration list for PBXNativeTarget "day morecontrols" */;
+			buildPhases = (
+				9BD869D9204569C200EBAC32 /* Sources */,
+				9BD869DA204569C200EBAC32 /* Frameworks */,
+				9BD869DB204569C200EBAC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day morecontrols";
+			productName = "day morecontrols";
+			productReference = 9BD869DD204569C200EBAC32 /* day morecontrols.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD869F0204569C200EBAC32 /* day morecontrolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD86A08204569C200EBAC32 /* Build configuration list for PBXNativeTarget "day morecontrolsTests" */;
+			buildPhases = (
+				9BD869ED204569C200EBAC32 /* Sources */,
+				9BD869EE204569C200EBAC32 /* Frameworks */,
+				9BD869EF204569C200EBAC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD869F3204569C200EBAC32 /* PBXTargetDependency */,
+			);
+			name = "day morecontrolsTests";
+			productName = "day morecontrolsTests";
+			productReference = 9BD869F1204569C200EBAC32 /* day morecontrolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BD869FB204569C200EBAC32 /* day morecontrolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD86A0B204569C200EBAC32 /* Build configuration list for PBXNativeTarget "day morecontrolsUITests" */;
+			buildPhases = (
+				9BD869F8204569C200EBAC32 /* Sources */,
+				9BD869F9204569C200EBAC32 /* Frameworks */,
+				9BD869FA204569C200EBAC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD869FE204569C200EBAC32 /* PBXTargetDependency */,
+			);
+			name = "day morecontrolsUITests";
+			productName = "day morecontrolsUITests";
+			productReference = 9BD869FC204569C200EBAC32 /* day morecontrolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD869D5204569C200EBAC32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9BD869DC204569C200EBAC32 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9BD869F0204569C200EBAC32 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BD869DC204569C200EBAC32;
+					};
+					9BD869FB204569C200EBAC32 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BD869DC204569C200EBAC32;
+					};
+				};
+			};
+			buildConfigurationList = 9BD869D8204569C200EBAC32 /* Build configuration list for PBXProject "day morecontrols" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD869D4204569C200EBAC32;
+			productRefGroup = 9BD869DE204569C200EBAC32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD869DC204569C200EBAC32 /* day morecontrols */,
+				9BD869F0204569C200EBAC32 /* day morecontrolsTests */,
+				9BD869FB204569C200EBAC32 /* day morecontrolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD869DB204569C200EBAC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD86A0F20456D2600EBAC32 /* petmd-cat-happy-13.jpg in Resources */,
+				9BD869EB204569C200EBAC32 /* LaunchScreen.storyboard in Resources */,
+				9BD869E8204569C200EBAC32 /* Assets.xcassets in Resources */,
+				9BD869E6204569C200EBAC32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD869EF204569C200EBAC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD869FA204569C200EBAC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD869D9204569C200EBAC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD86A1120456DA500EBAC32 /* ViewController.swift in Sources */,
+				9BD869E1204569C200EBAC32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD869ED204569C200EBAC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD869F6204569C200EBAC32 /* day_morecontrolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD869F8204569C200EBAC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD86A01204569C200EBAC32 /* day_morecontrolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD869F3204569C200EBAC32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD869DC204569C200EBAC32 /* day morecontrols */;
+			targetProxy = 9BD869F2204569C200EBAC32 /* PBXContainerItemProxy */;
+		};
+		9BD869FE204569C200EBAC32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD869DC204569C200EBAC32 /* day morecontrols */;
+			targetProxy = 9BD869FD204569C200EBAC32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BD869E4204569C200EBAC32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD869E5204569C200EBAC32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BD869E9204569C200EBAC32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD869EA204569C200EBAC32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD86A03204569C200EBAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BD86A04204569C200EBAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD86A06204569C200EBAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "day morecontrols/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.day-morecontrols";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BD86A07204569C200EBAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "day morecontrols/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.day-morecontrols";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BD86A09204569C200EBAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "day morecontrolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.day-morecontrolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day morecontrols.app/day morecontrols";
+			};
+			name = Debug;
+		};
+		9BD86A0A204569C200EBAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "day morecontrolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.day-morecontrolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day morecontrols.app/day morecontrols";
+			};
+			name = Release;
+		};
+		9BD86A0C204569C200EBAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "day morecontrolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.day-morecontrolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "day morecontrols";
+			};
+			name = Debug;
+		};
+		9BD86A0D204569C200EBAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "day morecontrolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.day-morecontrolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "day morecontrols";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD869D8204569C200EBAC32 /* Build configuration list for PBXProject "day morecontrols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD86A03204569C200EBAC32 /* Debug */,
+				9BD86A04204569C200EBAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD86A05204569C200EBAC32 /* Build configuration list for PBXNativeTarget "day morecontrols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD86A06204569C200EBAC32 /* Debug */,
+				9BD86A07204569C200EBAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD86A08204569C200EBAC32 /* Build configuration list for PBXNativeTarget "day morecontrolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD86A09204569C200EBAC32 /* Debug */,
+				9BD86A0A204569C200EBAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD86A0B204569C200EBAC32 /* Build configuration list for PBXNativeTarget "day morecontrolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD86A0C204569C200EBAC32 /* Debug */,
+				9BD86A0D204569C200EBAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD869D5204569C200EBAC32 /* Project object */;
+}
